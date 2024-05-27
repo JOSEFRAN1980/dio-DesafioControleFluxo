@@ -23,7 +23,8 @@ public class Contador {
         if (parametroUm > parametroDois) {
             throw new ParametrosInvalidosException();
         }
-        for (int indice = parametroUm; indice < parametroDois; indice++) {
+        int contador = parametroDois - parametroUm;
+        for (int indice = 1; indice <= contador; indice++) {
 
             System.out.println("Imprimindo o número " + indice);
             
