@@ -10,7 +10,7 @@ public class Contador {
         int parametroDois = terminal.nextInt();
 
         try {
-            // chamando o método contendo a lógica de contagem
+            
             contar(parametroUm, parametroDois);
 
         } catch (ParametrosInvalidosException exception) {
